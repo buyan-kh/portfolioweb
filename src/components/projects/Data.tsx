@@ -21,7 +21,7 @@ const PROJECT_CONTENT = [
       'Vercel AI SDK',
       'Solana Agent kit',
       'Neon',
-      'Prisma'
+      'Prisma',
     ],
     date: '2025',
     links: [
@@ -48,7 +48,7 @@ const PROJECT_CONTENT = [
       {
         name: 'Usage tutorial',
         url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
-      }
+      },
     ],
     images: [
       {
@@ -78,19 +78,19 @@ const PROJECT_CONTENT = [
     ],
   },
   {
-    title: 'Rrate',
+    title: 'TeelCode',
     description:
-      "Rrate is a fun website to allow user to compare his salary with the richest people in the world. Try it now it's online!",
-    techStack: ['Html', 'Css', 'Javascript'],
-    date: '2024',
+      'A personalized LeetCode learning platform that helps you improve your coding skills through ELO-ranked problems and spaced repetition.',
+    techStack: ['TypeScript', 'React', 'TailwindCSS', 'Prisma', 'Supabase'],
+    date: '2025',
     links: [
       {
         name: 'website',
-        url: 'https://rrate.app',
+        url: 'https://buyan.tech/teelcode',
       },
       {
         name: 'github',
-        url: 'https://github.com/toukoum/Rrate',
+        url: 'https://github.com/buyan-kh/teelcode',
       },
     ],
     images: [
@@ -109,51 +109,45 @@ const PROJECT_CONTENT = [
     ],
   },
   {
-    title: 'Defai',
+    title: 'Cooking College',
     description:
-      "We Win ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Vercel AI SDK',
-      'TypeScript',
-    ],
+      'Cooking College: AI-powered study tool, built on evidence-based learning techniques. Syllabus Processing - Upload your course syllabus (PDF/DOCX) and get an AI-generated study roadmap Custom Courses - Create and manage your own courses Progress Tracking - Monitor your learning journey with visual progress indicators',
+    techStack: ['Next.js', 'React', 'FastAPI', 'MongoDB', 'TypeScript'],
     date: '2025',
     links: [
       {
         name: 'website',
-        url: 'https://dorahacks.io/buidl/22605',
+        url: '#',
       },
       {
         name: 'github',
-        url: 'https://github.com/toukoum/DEFAI',
+        url: 'https://github.com/buyan-kh/cooking_college',
       },
       {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7299337190151483392/',
+        url: 'https://www.linkedin.com/posts/activity-7315611203534258176-O8Za',
       },
       {
         name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=Toukoum',
-      }
+        url: 'https://www.youtube.com/watch?v=-K4-ZRm3IHY&feature=youtu.be',
+      },
     ],
     images: [
       {
-        src: '/defai1.png',
-        alt: 'Landing Page of Defai',
+        src: '/cooking.png',
+        alt: 'cooking',
       },
       {
-        src: '/defai2.png',
-        alt: 'Confirmation popup of Defai',
+        src: '/cooking2.jpeg',
+        alt: 'cooking',
       },
       {
-        src: '/defai3.png',
-        alt: 'Chatbot of Defai',
+        src: '/cooking3.jpeg',
+        alt: 'cooking',
       },
       {
-        src: '/defai4.jpeg',
-        alt: 'Winner team',
+        src: '/cooking4.jpeg',
+        alt: 'cooking team',
       },
     ],
   },
@@ -200,7 +194,7 @@ const PROJECT_CONTENT = [
       {
         name: 'Youtube Video Demo',
         url: 'https://youtu.be/iE0RXjdbQsw',
-      }
+      },
     ],
     images: [
       {
@@ -218,106 +212,76 @@ const PROJECT_CONTENT = [
       {
         src: '/datai4.png',
         alt: 'Datai chatbot',
-      }
+      },
     ],
   },
   {
-    title: '3d Pong Game',
+    title: 'Transformers',
     description:
-      "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
-    techStack: ['Django', 'Python', 'JavaScript', 'Websockets', 'PostgreSQL', 'Docker', 'Nginx', 'Web3', 'Solidity'],
-    date: '2023',
+      "Transformers is a project that aims to create a simple transformers. It's a great introduction to deep learning and machine learning. This was a very challenging project, but I learned a lot from it.",
+    techStack: ['Pytorch', 'Python'],
+    date: '2053',
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/Transcendance',
+        url: 'https://github.com/buyan-kh/deeplearning/tree/main/transformers%20from%20scratch',
       },
     ],
     images: [
       {
-        src: '/trans1.png',
-        alt: 'Transcendance landing page',
+        src: '/transformers.png',
+        alt: 'Transformers page',
       },
-      {
-        src: '/trans2.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans3.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans4.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans5.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans6.png',
-        alt: 'Transcendance game',
-      }
-
     ],
   },
   {
-    title: 'Minishell',
+    title: 'fashion mnist',
     description:
-      "Minishell is a project that aims to create a simple shell. It's a great introduction to process creation and management in C, offering fundamental Unix command-line functionality. This was a very challenging project, but I learned a lot from it.",
-    techStack: ['C', 'Unix', 'Bash'],
-    date: '2023',
+      "Fashion MNIST is a project that aims to create a simple fashion mnist. It's a great introduction to deep learning and machine learning. This was a very challenging project, but I learned a lot from it.",
+    techStack: ['Pytorch', 'Python'],
+    date: '2024',
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/Michelle-42',
+        url: '#',
       },
     ],
     images: [
       {
-        src: '/minishell1.png',
-        alt: 'Minishell landing page',
-      }
+        src: '',
+        alt: 'fashion mnist',
+      },
     ],
   },
   {
-    title: 'YouBot',
-    description:
-      'YouBot is a Python Bot that Scrapes Videos from Pexels, adds a random song from a Songs Folder, then auto-uploads the videos to your YouTube Channel for continuous content generation.',
-    techStack: ['Python', 'YouTube API', 'Pexels API'],
+    title: 'Clueless',
+    description: 'Keeping digital integrity and honesty',
+    techStack: ['Javascript', 'Electron', 'Swift'],
     date: '2022',
     links: [
       {
-        name: "YouTube Video",
-        url: "https://youtu.be/vp1v5mBG7rA "
+        name: 'Demo Video',
+        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7343140015356420097/ ',
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/YouBot',
-      }
+        url: 'https://github.com/buyan-kh/cluelessx',
+      },
     ],
     images: [
       {
-        src: '/youbot1.jpg',
-        alt: 'Youbot landing page',
-      },
-      {
-        src: '/youbot2.png',
-        alt: 'Youbot chatbot',
+        src: '/clueless1.png',
+        alt: 'clueless landing page',
       },
     ],
   },
   {
-    title: 'Old Portfolio',
+    title: 'Threat Tracker',
     description:
-      'My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
-    date: '2022',
+      'Threat Tracker is an iOS app that provides real-time threat intelligence',
+    techStack: ['React Native', 'Google Maps SDK', 'DeepGram', 'MongoDb'],
+    date: '2024',
     links: [
-      {
-        name: 'Website',
-        url: 'https://toukoum.github.io/oldPortfolio/',
-      },
       {
         name: 'GitHub',
         url: 'https://github.com/toukoum/portfolio',
@@ -325,13 +289,9 @@ const PROJECT_CONTENT = [
     ],
     images: [
       {
-        src: '/oldport1.png',
-        alt: 'Old Portfolio landing page',
+        src: '/threattracker.png',
+        alt: 'threat tracker app',
       },
-      {
-        src: '/oldport2.png',
-        alt: 'Old Portfolio projects',
-      }
     ],
   },
 ];
@@ -389,7 +349,7 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
       {/* Links section */}
       {projectData.links && projectData.links.length > 0 && (
         <div className="mb-24">
-          <div className="px-6 mb-4 flex items-center gap-2">
+          <div className="mb-4 flex items-center gap-2 px-6">
             <h3 className="text-sm tracking-wide text-neutral-500 dark:text-neutral-400">
               Links
             </h3>
@@ -398,16 +358,16 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
           <Separator className="my-4" />
           <div className="space-y-3">
             {projectData.links.map((link, index) => (
-                <a
+              <a
                 key={index}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-[#F5F5F7] flex items-center justify-between rounded-xl p-4 transition-colors hover:bg-[#E5E5E7] dark:bg-neutral-800 dark:hover:bg-neutral-700"
-                >
+                className="group flex items-center justify-between rounded-xl bg-[#F5F5F7] p-4 transition-colors hover:bg-[#E5E5E7] dark:bg-neutral-800 dark:hover:bg-neutral-700"
+              >
                 <span className="font-light capitalize">{link.name}</span>
                 <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </a>
+              </a>
             ))}
           </div>
         </div>
@@ -440,57 +400,57 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // Main data export with updated content
 export const data = [
   {
-    category: 'Startup Project',
-    title: 'Synto',
+    category: 'Startup Project IDE',
+    title: 'Cowabunga',
     src: '/syntopreview.png',
     content: <ProjectContent project={{ title: 'Synto' }} />,
   },
   {
-    category: 'Fun Tool',
-    title: 'Rrate',
+    category: 'Get good at Leetcode',
+    title: 'TeelCode',
     src: '/ratepreview.png',
-    content: <ProjectContent project={{ title: 'Rrate' }} />,
+    content: <ProjectContent project={{ title: 'TeelCode' }} />,
+  },
+  {
+    category: 'Study Tool',
+    title: 'Cooking College',
+    src: '/cooking.png',
+    content: <ProjectContent project={{ title: 'Cooking College' }} />,
   },
   {
     category: 'Hackathon Winner',
-    title: 'Defai',
-    src: '/defaipreview.png',
-    content: <ProjectContent project={{ title: 'Defai' }} />,
-  },
-  {
-    category: 'Hackathon Winner',
-    title: 'Fitgear',
+    title: 'Find Kind',
     src: '/fitgearpreview.png',
     content: <ProjectContent project={{ title: 'Fitgear' }} />,
   },
   {
-    category: 'Business Intelligence',
-    title: 'Datai',
-    src: '/dataipreview.png',
+    category: 'DL from scrach projects',
+    title: 'Transformers from scratch',
+    src: '/transformers.png',
+    content: <ProjectContent project={{ title: 'Transformers' }} />,
+  },
+  {
+    category: 'Clarity, AI timeblock',
+    title: '',
+    src: '/claritypreview.png',
     content: <ProjectContent project={{ title: 'Datai' }} />,
   },
   {
     category: '42 Project',
-    title: '3d Pong Game',
-    src: '/transcendancepreview.png',
-    content: <ProjectContent project={{ title: '3d Pong Game' }} />,
-  },
-  {
-    category: '42 Project',
-    title: 'Minishell',
+    title: 'Fashion MNIST',
     src: '/minishellpreview.png',
-    content: <ProjectContent project={{ title: 'Minishell' }} />,
+    content: <ProjectContent project={{ title: 'fashion mnist' }} />,
   },
   {
-    category: 'Automation',
-    title: 'YouBot',
-    src: '/youbotpreview.png',
-    content: <ProjectContent project={{ title: 'YouBot' }} />,
+    category: 'Projects',
+    title: 'Clueless',
+    src: '/clueless1.png',
+    content: <ProjectContent project={{ title: 'Clueless' }} />,
   },
   {
-    category: 'Web Development',
-    title: 'Old Portfolio',
-    src: '/oldportfoliopreview.png',
-    content: <ProjectContent project={{ title: 'Old Portfolio' }} />,
+    category: 'Hackathon project',
+    title: 'Threat Tracker',
+    src: '/threatracker.png',
+    content: <ProjectContent project={{ title: 'Threat Tracker' }} />,
   },
 ];

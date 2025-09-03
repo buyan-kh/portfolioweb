@@ -9,12 +9,12 @@ export function Resume() {
   // Resume details
   const resumeDetails = {
     title: "Buyan's Resume",
-    description: 'Full Stack Developer • AI Specialist',
+    description: 'Full Stack Developer • Student',
     fileType: 'PDF',
-    lastUpdated: 'March 2025',
-    fileSize: '0.5 MB',
-    previewImageSrc: '/resume_giraud_preview.png',
-    downloadUrl: '/resume_giraud.pdf',
+    lastUpdated: 'September 2025',
+    fileSize: '0.1 MB',
+    previewImageSrc: '/Buyan_resume_preview.png',
+    downloadUrl: '/Buyan_resume.pdf',
   };
 
   const handleDownload = () => {

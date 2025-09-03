@@ -139,6 +139,7 @@ const Chat = () => {
     append,
   } = useChat({
     onResponse: (response) => {
+      console.log('🔄 [STREAMING] Response started:', response);
       if (response) {
         setLoadingSubmit(false);
         setIsTalking(true);
@@ -150,6 +151,7 @@ const Chat = () => {
       }
     },
     onFinish: () => {
+      console.log('✅ [STREAMING] Response finished');
       setLoadingSubmit(false);
       setIsTalking(false);
       if (videoRef.current) {
@@ -157,6 +159,7 @@ const Chat = () => {
       }
     },
     onError: (error) => {
+      console.error('❌ [STREAMING] Error occurred:', error);
       setLoadingSubmit(false);
       setIsTalking(false);
       if (videoRef.current) {
@@ -167,7 +170,7 @@ const Chat = () => {
     },
     onToolCall: (tool) => {
       const toolName = tool.toolCall.toolName;
-      console.log('Tool call:', toolName);
+      console.log('🔧 [STREAMING] Tool call:', toolName);
     },
   });
 
@@ -286,10 +289,9 @@ const Chat = () => {
         />
         <div className="">
           <GithubButton
-            animationDuration={1.5}
-            label="Star"
+            label="My Github"
             size={'sm'}
-            repoUrl="https://github.com/toukoum/portfolio"
+            repoUrl="https://github.com/buyan-kh"
           />
         </div>
       </div>
@@ -393,12 +395,12 @@ const Chat = () => {
           </div>
         </div>
         <a
-          href="https://x.com/toukoumcode"
+          href="https://x.com/buyan_kh"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed right-3 bottom-0 z-10 mb-4 hidden cursor-pointer items-center gap-2 rounded-xl px-4 py-2 text-sm hover:underline md:block"
         >
-          @toukoum
+          @buyan_kh
         </a>
       </div>
     </div>

@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 
 const InternshipCard = () => {
   const openMail = () => {
-    window.open('mailto:raphaelgiraud12@gmail.com', '_blank');
+    window.open('mailto:buyan.khurel@gmail.com', '_blank');
   };
   const router = useRouter();
 
@@ -23,14 +23,14 @@ const InternshipCard = () => {
           {/* Avatar placeholder */}
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
-              src="/avatar-buyan.jpg"
-              alt="Raphael's avatar"
+              src="/avatar-buyan.jpeg"
+              alt="Buyan's avatar"
               className="h-full w-full object-cover"
             />
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Raphael Giraud
+              Buyan Khurelbaatar
             </h2>
             <p className="text-muted-foreground text-sm">
               Intership Application
@@ -57,7 +57,7 @@ const InternshipCard = () => {
           <div>
             <p className="text-foreground text-sm font-medium">Duration</p>
             <p className="text-muted-foreground text-sm">
-              6 months – starting September 2025 (fall 2025)
+              Looking for summer 2026 internships.
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ const InternshipCard = () => {
           <div>
             <p className="text-foreground text-sm font-medium">Location</p>
             <p className="text-muted-foreground text-sm">
-              Preferably San Francisco 🇺🇸
+              Preferably San Francisco, Bay area.
             </p>
           </div>
         </div>
@@ -78,16 +78,16 @@ const InternshipCard = () => {
             <p className="text-foreground text-sm font-medium">Tech stack</p>
             <div className="text-muted-foreground grid grid-cols-1 gap-y-1 text-sm sm:grid-cols-2">
               <ul className="decoration-none list-disc pl-4">
-                <li>Python, Next.js, TypeScript, Tailwind CSS</li>
-                <li>Vercel AI SDK, Supabase, Prisma</li>
-                <li>OpenAI, Mistral, Claude, Whisper</li>
-                <li>Prompt engineering, fine-tuning</li>
+                <li>Java, C++, Python, Next.js, TypeScript, SQL</li>
+                <li>React, Flutter, Vercel AI SDK, Supabase, Prisma</li>
+                <li>FastAPI, WebSockets, NoSQL, MongoDB</li>
+                <li>Prompt engineering, fine-tuning, LLM, MCP, RAG</li>
               </ul>
               <ul className="list-disc pl-4">
                 <li>Weaviate, Pinecone, vector DBs</li>
-                <li>Hugging Face Transformers</li>
-                <li>Tool routing, calling, RAG</li>
-                <li>Hackathons + AI agent workflows</li>
+                <li>Hugging Face Transformers, Lighton, TensorFlow, PyTorch</li>
+                <li>Tool routing, calling, RAG, AI agents</li>
+                <li>Langchain, n8n, AI agent workflows</li>
                 <li>
                   <a
                     href="/chat?query=What%20are%20your%20skills%3F%20Give%20me%20a%20list%20of%20your%20soft%20and%20hard%20skills."
@@ -108,10 +108,11 @@ const InternshipCard = () => {
           What I bring
         </p>
         <p className="text-foreground text-sm">
-          Real-world AI dev experience from Lighton (MCP, secure GPTs, RAG
-          pipelines). <br /> 3x hackathon wins (ETH Oxford, Paris Blockchain
-          Week, Colosseum Breakout on Solana). <br /> I ship fast, and love
-          building useful things that actually work.
+          Full stack developer, AI enthusiast, self researcher on Deep Learning.
+          Built and designed 10+ deep learning researc projects from scratch
+          (Transformers, MLA, etc...) <br /> 5x hackathon wins, total 20+
+          hackathons. <br /> I ship fast, and love building useful things that
+          actually work.
         </p>
       </div>
 
@@ -126,12 +127,27 @@ const InternshipCard = () => {
       </div>
 
       {/* Contact button */}
-      <div className="mt-10 flex justify-center">
+      <div className="mt-10 flex justify-center gap-4">
         <button
           onClick={openMail}
           className="cursor-pointer rounded-full bg-black px-6 py-3 font-semibold text-white transition-colors duration-300 hover:bg-zinc-800"
         >
           Contact me
+        </button>
+
+        <button
+          onClick={() => {
+            // Create a link element for resume download
+            const link = document.createElement('a');
+            link.href = '/Buyan_resume.pdf';
+            link.download = 'Buyan_resume.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }}
+          className="cursor-pointer rounded-full border border-black bg-white px-6 py-3 font-semibold text-black transition-colors duration-300 hover:bg-gray-100"
+        >
+          Resume
         </button>
       </div>
     </motion.div>

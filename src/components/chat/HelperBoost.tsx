@@ -20,7 +20,6 @@ import {
   Laugh,
   Layers,
   MailIcon,
-  PartyPopper,
   Sparkles,
   UserRoundSearch,
   UserSearch,
@@ -37,7 +36,6 @@ const questions = {
   Me: 'Who are you? I want to know more about you.',
   Projects: 'What are your projects? What are you working on right now?',
   Skills: 'What are your skills? Give me a list of your soft and hard skills.',
-  Fun: "What the craziest thing you've ever done? (mb?) What are your hobbies? ",
   Contact:
     'How can I reach you? What kind of project would make you say "yes" immediately?',
 };
@@ -46,19 +44,16 @@ const questionConfig = [
   { key: 'Me', color: '#329696', icon: Laugh },
   { key: 'Projects', color: '#3E9858', icon: BriefcaseBusiness },
   { key: 'Skills', color: '#856ED9', icon: Layers },
-  { key: 'Fun', color: '#B95F9D', icon: PartyPopper },
   { key: 'Contact', color: '#C19433', icon: UserRoundSearch },
 ];
 
 // Helper drawer data
 const specialQuestions = [
-  'Mountain Bike you said?? Show me!',
   'Who are you?',
   'Can I see your resume?',
   'What projects are you most proud of?',
   'What are your skills?',
   'How can I reach you?',
-  "What's the craziest thing you've ever done?",
 ];
 
 const questionsByCategory = [
@@ -95,22 +90,9 @@ const questionsByCategory = [
     id: 'skills',
     name: 'Skills',
     icon: GraduationCapIcon,
-    questions: [
-      'What are your skills?',
-      'How was your experience at École 42?',
-    ],
+    questions: ['What are your skills?', ,],
   },
-  {
-    id: 'fun',
-    name: 'Fun',
-    icon: PartyPopper,
-    questions: [
-      'Mountain Bike you said?? Show me!',
-      "What's the craziest thing you've ever done?",
-      'Mac or PC?',
-      'What are you certain about that 90% get wrong?',
-    ],
-  },
+
   {
     id: 'contact',
     name: 'Contact & Future',
@@ -266,7 +248,7 @@ export default function HelperBoost({
                         key={category.id}
                         name={category.name}
                         Icon={category.icon}
-                        questions={category.questions}
+                        questions={category.questions as string[]}
                         onQuestionClick={handleDrawerQuestionClick}
                       />
                     ))}

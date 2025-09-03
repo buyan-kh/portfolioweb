@@ -11,11 +11,10 @@ export function Presentation() {
     age: '22 years old',
     location: 'Mountain View, California',
     // Add a newline character after the emoji
-    description:
-      "Hey 👋\nI'm Buyan.",
+    description: "Hey 👋\nI'm Buyan.",
     src: '/profile-buyan.png',
     fallbackSrc:
-      'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1708873395735-dcad0140e3a2?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   };
 
   // Animation variants for text elements
@@ -71,7 +70,7 @@ export function Presentation() {
         </div>
 
         {/* Text content section */}
-        <div className="flex flex-col space-y">
+        <div className="space-y flex flex-col">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -103,16 +102,23 @@ export function Presentation() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="mt-4 flex flex-wrap gap-2"
           >
-            {['Deep Learning', 'Developer', 'Machine Learning', 'Full Stack Engineering', 'Distributed Systems', 'User Experience', 'Mathematics', 'Research', 'GUI'].map(
-              (tag) => (
-                <span
-                  key={tag}
-                  className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm"
-                >
-                  {tag}
-                </span>
-              )
-            )}
+            {[
+              'Deep Learning',
+              'C++',
+              'Machine Learning',
+              'Full Stack Engineering',
+              'UI UX Designing',
+              'Mathematics',
+              'Research',
+              'GUI',
+            ].map((tag) => (
+              <span
+                key={tag}
+                className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm"
+              >
+                {tag}
+              </span>
+            ))}
           </motion.div>
         </div>
       </div>

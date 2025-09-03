@@ -8,7 +8,7 @@ export function Contact() {
   // Contact information
   const contactInfo = {
     name: 'Buyan Khurelbaatar',
-    email: 'buyan,khurel@gmail.com',
+    email: 'buyan.khurel@gmail.com',
     handle: '@buyan-kh',
     socials: [
       {
