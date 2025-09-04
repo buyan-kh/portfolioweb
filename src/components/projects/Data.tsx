@@ -234,7 +234,7 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/portfolio',
+        url: 'https://github.com/Threat-Tracker/Threat-Tracker',
       },
     ],
     images: [
