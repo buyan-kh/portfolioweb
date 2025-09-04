@@ -7,73 +7,29 @@ import { url } from 'inspector';
 // Enhanced project content array with all projects
 const PROJECT_CONTENT = [
   {
-    title: 'Synto',
+    title: 'Cowabunga',
     description:
-      'Synto is an AI-powered interface that transforms complex blockchain interactions into simple, natural language commands. Whether you want to send tokens, stake assets, swap coins, or even create NFTs or liquidity pools, just tell Synto what to do — no manual wallet interactions, no technical jargon. One of my biggest projects yet',
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'Web3.js',
-      'shadcn-ui',
-      'TypeScript',
-      'Phantom Wallet',
-      'OpenAI API',
-      'Vercel AI SDK',
-      'Solana Agent kit',
-      'Neon',
-      'Prisma',
-    ],
+      'Cowabunga is an open world 2D IDE that replaces traditional file trees with an infinite canvas where code is organized by meaning and relationships, not folder hierarchies. It combines a live, infinite canvas workspace with deep AI understanding to supercharge your development process',
+    techStack: [''],
     date: '2025',
     links: [
       {
         name: 'website',
-        url: 'https://synto.fun',
+        url: 'https://www.linkedin.com/company/108113963/',
       },
       {
         name: 'Launch Video',
-        url: 'https://www.youtube.com/watch?v=4QUE2KgKDUw',
-      },
-      {
-        name: 'X',
-        url: 'https://x.com/chainSynto',
-      },
-      {
-        name: 'Technical Video',
-        url: 'https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be',
-      },
-      {
-        name: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing',
-      },
-      {
-        name: 'Usage tutorial',
-        url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
+        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7358759350032617473/',
       },
     ],
     images: [
       {
-        src: '/synto1.png',
-        alt: 'Synto landing page',
+        src: '/cowabunga.png',
+        alt: 'cowabunga  page',
       },
       {
-        src: '/synto2.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto3.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto4.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto5.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto6.png',
-        alt: 'Synto chat interface',
+        src: '/cowabunga2.png',
+        alt: 'cowabunga',
       },
     ],
   },
@@ -86,7 +42,7 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'website',
-        url: 'https://buyan.tech/teelcode',
+        url: 'https://teelcode.buyan.tech',
       },
       {
         name: 'github',
@@ -117,7 +73,7 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'website',
-        url: '#',
+        url: 'https://cooking.buyan.tech',
       },
       {
         name: 'github',
@@ -152,66 +108,56 @@ const PROJECT_CONTENT = [
     ],
   },
   {
-    title: 'Fitgear',
+    title: 'GoTN',
     description:
-      'Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.',
-    techStack: ['Next.js', 'TailwindCSS', 'OpenAI API', 'Langchain'],
-    date: '2024',
-    links: [
-      {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC6vwikBVSEkS7XWktWS7y6GR3GHwAlKslc',
-      },
+      'MCP server for breaking down prompts into micro prompts graph tree and traverses best path to reduce hallucination',
+    techStack: [
+      'Typescript',
+      'Node.js',
+      'Express',
+      'Vector database',
+      'MCP',
+      'React',
     ],
+    date: '2025',
     images: [
       {
-        src: '/fitgear2.png',
-        alt: 'Fitgear chatbot',
+        src: '/GoTN3.png',
+        alt: 'gotn cursor mcp',
       },
       {
-        src: '/fitgear1.png',
-        alt: 'Fitgear landing page',
+        src: '/GoTN2.png',
+        alt: 'gotn graph tree',
       },
     ],
   },
   {
-    title: 'Datai',
-    description:
-      "DATAI is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic's Claude API, this project focuses on simplicity, speed, and user-friendly design.",
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Claude API',
-      'TypeScript',
-    ],
+    title: 'Clarity',
+    description: 'AI timeblock app. What would make today meaningful for you?',
+    techStack: ['Next.js', 'Electron', 'MongoDB', 'TypeScript', 'React'],
     date: '2024',
     links: [
       {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/datai',
+        name: 'Website',
+        url: 'https://clarity.buyan.tech',
       },
       {
-        name: 'Youtube Video Demo',
-        url: 'https://youtu.be/iE0RXjdbQsw',
+        name: 'GitHub',
+        url: 'https://github.com/buyan-kh/clarity',
       },
     ],
     images: [
       {
-        src: '/datai1.png',
-        alt: 'Datai landing page',
+        src: '/clarity1.png',
+        alt: 'Clarity landing page',
       },
       {
-        src: '/datai2.png',
-        alt: 'Datai chatbot',
+        src: '/clarity2.png',
+        alt: 'Clarity ',
       },
       {
-        src: '/datai3.png',
-        alt: 'Datai chatbot',
-      },
-      {
-        src: '/datai4.png',
-        alt: 'Datai chatbot',
+        src: '/clarity3.png',
+        alt: 'Clarity ',
       },
     ],
   },
@@ -235,21 +181,25 @@ const PROJECT_CONTENT = [
     ],
   },
   {
-    title: 'fashion mnist',
+    title: 'TruthCircuit',
     description:
-      "Fashion MNIST is a project that aims to create a simple fashion mnist. It's a great introduction to deep learning and machine learning. This was a very challenging project, but I learned a lot from it.",
-    techStack: ['Pytorch', 'Python'],
-    date: '2024',
+      "TruthCircuit is a grounded reasoning engine that creates a visual, auditable trail of AI decision-making. It's essentially a truth machine. It also features the Path Registry system, which allows users to discover, download, and install approved reasoning paths.",
+    techStack: [''],
+    date: '2025',
     links: [
       {
-        name: 'GitHub',
-        url: '#',
+        name: 'Demo Video',
+        url: 'https://x.com/buyan_kh/status/1963437118274802033',
       },
     ],
     images: [
       {
-        src: '',
-        alt: 'fashion mnist',
+        src: '/truthcircuit.png',
+        alt: 'truthcircuit ',
+      },
+      {
+        src: '/truthcircuit2.png',
+        alt: 'truthcircuit ',
       },
     ],
   },
@@ -400,10 +350,10 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // Main data export with updated content
 export const data = [
   {
-    category: 'Startup Project IDE',
+    category: 'Passion Project IDE',
     title: 'Cowabunga',
     src: '/syntopreview.png',
-    content: <ProjectContent project={{ title: 'Synto' }} />,
+    content: <ProjectContent project={{ title: 'Cowabunga' }} />,
   },
   {
     category: 'Get good at Leetcode',
@@ -412,40 +362,41 @@ export const data = [
     content: <ProjectContent project={{ title: 'TeelCode' }} />,
   },
   {
+    category:
+      'MCP server for breaking down prompts into micro prompts graph tree and traverses best path to reduce hallucination',
+    title: 'GoTN',
+    src: '/gotn_preview.jpg',
+    content: <ProjectContent project={{ title: 'GoTN' }} />,
+  },
+  {
+    category: 'MCP Server, marketplace for blackboxing LLMs',
+    title: 'TruthCircuit',
+    src: '/truthcircuit_pre.jpg',
+    content: <ProjectContent project={{ title: 'TruthCircuit' }} />,
+  },
+  {
     category: 'Study Tool',
     title: 'Cooking College',
     src: '/cooking.png',
     content: <ProjectContent project={{ title: 'Cooking College' }} />,
   },
   {
-    category: 'Hackathon Winner',
-    title: 'Find Kind',
-    src: '/fitgearpreview.png',
-    content: <ProjectContent project={{ title: 'Fitgear' }} />,
-  },
-  {
-    category: 'DL from scrach projects',
-    title: 'Transformers from scratch',
-    src: '/transformers.png',
-    content: <ProjectContent project={{ title: 'Transformers' }} />,
-  },
-  {
     category: 'Clarity, AI timeblock',
     title: '',
     src: '/claritypreview.png',
-    content: <ProjectContent project={{ title: 'Datai' }} />,
-  },
-  {
-    category: '42 Project',
-    title: 'Fashion MNIST',
-    src: '/minishellpreview.png',
-    content: <ProjectContent project={{ title: 'fashion mnist' }} />,
+    content: <ProjectContent project={{ title: 'Clarity' }} />,
   },
   {
     category: 'Projects',
     title: 'Clueless',
     src: '/clueless1.png',
     content: <ProjectContent project={{ title: 'Clueless' }} />,
+  },
+  {
+    category: 'DL from scrach projects',
+    title: 'Transformers from scratch',
+    src: '/transformers.png',
+    content: <ProjectContent project={{ title: 'Transformers' }} />,
   },
   {
     category: 'Hackathon project',
