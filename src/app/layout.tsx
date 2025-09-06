@@ -13,8 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Buyan Portfolio',
-  description:
-    'Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience',
+  description: 'Buyan Khurelbaatar portfolio',
   keywords: [
     'Buyan',
     'Portfolio',
@@ -39,15 +38,13 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://buyan.tech',
     title: 'Buyan Portfolio',
-    description:
-      'Interactive portfolio with an AI-powered Memoji that answers questions about me',
+    description: 'Buyan Khurelbaatar portfolio',
     siteName: 'Buyan Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Buyan Portfolio',
-    description:
-      'Interactive portfolio with an AI-powered Memoji that answers questions about me',
+    description: 'Buyan Khurelbaatar portfolio',
     creator: '@buyan_kh',
   },
   icons: {
