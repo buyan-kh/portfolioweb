@@ -12,7 +12,7 @@ export const getInternship = tool({
 - 🌍 **Location**: Preferably **San Francisco, Bay area** or anywhere in the **United States**
 - 🧑‍💻 **Focus**: AI development, full-stack web apps, SaaS, agentic workflows
 - 🛠️ **Stack**: C++, Java,Python, React/Next.js, SQL, NoSQL, TypeScript, PyTorch, Pydantic, FastAPI, WebSockets, MongoDB, RAG, MCP etc.
-- 💼 **Visa**: I’m an international student based in Mountain View, CA I would need**CPT F1 sponsorship**
+- 💼 **Visa**: I’m an international student based in Mountain View, I'm on **CPT F1** visa
 - ✅ **What I bring**: Full stack developer, AI enthusiast, self researcher on Deep Learning. Built and designed 10+ deep learning researc projects from scratch (Transformers, MLA, etc...) 5x hackathon wins, total 20+ hackathons.
 I ship fast, and love building useful things that actually work.
 - 🔥 I move fast, learn faster, and I’m driven for big challenges
