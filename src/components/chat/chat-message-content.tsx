@@ -95,10 +95,6 @@ export default function ChatMessageContent({
                     p: ({ children }) => (
                       <p className="break-words whitespace-pre-wrap">
                         {children}
-                        {/* Show streaming indicator when loading */}
-                        {isLoading && (
-                          <span className="ml-1 inline-block h-4 w-2 animate-pulse rounded-sm bg-blue-500" />
-                        )}
                       </p>
                     ),
                     ul: ({ children }) => (

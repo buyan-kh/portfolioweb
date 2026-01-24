@@ -7,6 +7,43 @@ import { url } from 'inspector';
 // Enhanced project content array with all projects
 const PROJECT_CONTENT = [
   {
+    title: 'Prepst',
+    description:
+      'AI-powered SAT preparation platform that helps students achieve top scores through adaptive practice and real exam insights. Currently serving 1500+ users.',
+    techStack: ['Next.js', 'React', 'TypeScript', 'AI', 'TailwindCSS'],
+    date: '2025',
+    links: [
+      {
+        name: 'Website',
+        url: 'https://www.prepst.com',
+      },
+    ],
+    images: [
+      {
+        src: '/prepst.png',
+        alt: 'Prepst landing page',
+      },
+    ],
+  },
+  {
+    title: 'Notcher',
+    description: 'Tiny assistant living in notch.',
+    techStack: ['Python', 'Swift'],
+    date: '2025',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/buyan-kh/notcher',
+      },
+    ],
+    images: [
+      {
+        src: '/notcher.png',
+        alt: 'Notcher app',
+      },
+    ],
+  },
+  {
     title: 'Cowabunga',
     description:
       'Cowabunga is an open world 2D IDE that replaces traditional file trees with an infinite canvas where code is organized by meaning and relationships, not folder hierarchies. It combines a live, infinite canvas workspace with deep AI understanding to supercharge your development process',
@@ -349,6 +386,18 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 
 // Main data export with updated content
 export const data = [
+  {
+    category: 'AI SAT Prep Platform',
+    title: 'Prepst',
+    src: '/prepst.png',
+    content: <ProjectContent project={{ title: 'Prepst' }} />,
+  },
+  {
+    category: 'Desktop Assistant',
+    title: 'Notcher',
+    src: '/notcher.png',
+    content: <ProjectContent project={{ title: 'Notcher' }} />,
+  },
   {
     category: 'Passion Project IDE',
     title: 'Cowabunga',

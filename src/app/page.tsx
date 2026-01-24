@@ -1,6 +1,5 @@
 'use client';
 
-import FluidCursor from '@/components/FluidCursor';
 import { Button } from '@/components/ui/button';
 import { GithubButton } from '@/components/ui/github-button';
 import WelcomeModal from '@/components/welcome-modal';
@@ -8,6 +7,7 @@ import { motion } from 'framer-motion';
 import {
   ArrowRight,
   BriefcaseBusiness,
+  FileText,
   Laugh,
   Layers,
   UserRoundSearch,
@@ -22,6 +22,7 @@ const questions = {
   Projects: 'What are your projects? What are you working on right now?',
   Skills: 'What are your skills? Give me a list of your soft and hard skills.',
   Contact: 'How can I contact you?',
+  Resume: "Show me your resume.",
 } as const;
 
 const questionConfig = [
@@ -29,6 +30,7 @@ const questionConfig = [
   { key: 'Projects', color: '#3E9858', icon: BriefcaseBusiness },
   { key: 'Skills', color: '#856ED9', icon: Layers },
   { key: 'Contact', color: '#C19433', icon: UserRoundSearch },
+  { key: 'Resume', color: '#0EA5E9', icon: FileText },
 ] as const;
 
 /* ---------- component ---------- */
@@ -185,23 +187,26 @@ export default function Home() {
         </form>
 
         {/* quick-question grid */}
-        <div className="mt-4 grid w-full max-w-2xl grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
-          {questionConfig.map(({ key, color, icon: Icon }) => (
-            <Button
-              key={key}
-              onClick={() => goToChat(questions[key])}
-              variant="outline"
-              className="border-border hover:bg-border/30 aspect-square w-full cursor-pointer rounded-2xl border bg-white/30 py-8 shadow-none backdrop-blur-lg active:scale-95 md:p-10"
-            >
-              <div className="flex h-full flex-col items-center justify-center gap-1 text-gray-700">
-                <Icon size={22} strokeWidth={2} color={color} />
-                <span className="text-xs font-medium sm:text-sm">{key}</span>
-              </div>
-            </Button>
-          ))}
+        <div className="mt-4 grid w-full max-w-2xl grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-5">
+          {questionConfig.map(({ key, color, icon: Icon }) => {
+            const baseClasses =
+              'border-border hover:bg-border/30 aspect-square w-full cursor-pointer rounded-2xl border bg-white/30 py-8 shadow-none backdrop-blur-lg active:scale-95 md:p-10';
+            return (
+              <Button
+                key={key}
+                onClick={() => goToChat(questions[key])}
+                variant="outline"
+                className={baseClasses}
+              >
+                <div className="flex h-full flex-col items-center justify-center gap-1 text-gray-700">
+                  <Icon size={22} strokeWidth={2} color={color} />
+                  <span className="text-xs font-medium sm:text-sm">{key}</span>
+                </div>
+              </Button>
+            );
+          })}
         </div>
       </motion.div>
-      <FluidCursor />
     </div>
   );
 }

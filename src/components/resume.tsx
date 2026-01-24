@@ -11,7 +11,7 @@ export function Resume() {
     title: "Buyan's Resume",
     description: 'Full Stack Developer • Student',
     fileType: 'PDF',
-    lastUpdated: 'September 2025',
+    lastUpdated: 'January 2026',
     fileSize: '0.1 MB',
     previewImageSrc: '/Buyan_resume_preview.png',
     downloadUrl: '/Buyan_resume.pdf',
