@@ -109,8 +109,8 @@ const InternshipCard = () => {
         </p>
         <p className="text-foreground text-sm">
           Full stack developer, AI enthusiast, self researcher on Deep Learning.
-          Built and designed 10+ deep learning researc projects from scratch
-          (Transformers, MLA, etc...) <br /> 5x hackathon wins, total 20+
+          Built and designed 10+ deep learning research projects from scratch
+          (Transformers, MLA, etc...) <br /> 5x hackathon wins, total 30+
           hackathons. <br /> I ship fast, and love building useful things that
           actually work.
         </p>

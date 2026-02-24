@@ -8,7 +8,7 @@ export function Presentation() {
   // Personal information
   const profile = {
     name: 'Buyan Khurelbaatar',
-    age: '22 years old',
+    age: '23 years old',
     location: 'Mountain View, California',
     // Add a newline character after the emoji
     description: "Hey 👋\nI'm Buyan.",

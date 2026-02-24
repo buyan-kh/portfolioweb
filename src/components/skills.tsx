@@ -12,6 +12,8 @@ const Skills = () => {
       icon: <Code className="h-5 w-5" />,
       skills: [
         'JavaScript/TypeScript',
+        'Swift',
+        'SwiftUI',
         'Tailwind CSS',
         'Next.js',
         'React',
@@ -29,6 +31,7 @@ const Skills = () => {
         'C',
         'C++',
         'Python',
+        'Rust',
         'FastAPI',
         'WebSockets',
         'SQL',

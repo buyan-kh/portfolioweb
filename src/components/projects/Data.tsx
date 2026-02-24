@@ -281,6 +281,71 @@ const PROJECT_CONTENT = [
       },
     ],
   },
+  {
+    title: 'Simulation Theory',
+    description: 'Simulate everything. An interactive simulation platform for exploring complex systems and emergent behaviors.',
+    techStack: ['TypeScript'],
+    date: '2026',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/buyan-kh/simulationtheory',
+      },
+    ],
+    images: [],
+  },
+  {
+    title: 'learngametheory',
+    description: 'Game theory simulation on everyday events. Interactive simulations that help you understand strategic decision-making in daily life.',
+    techStack: ['TypeScript'],
+    date: '2026',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/buyan-kh/learngametheory',
+      },
+    ],
+    images: [],
+  },
+  {
+    title: 'Pipify',
+    description: 'Lightning-fast copy trading from natural instructions engine. Automated trade entry from TradingView to MetaTrader.',
+    techStack: ['TypeScript'],
+    date: '2026',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/buyan-kh/pipify',
+      },
+    ],
+    images: [],
+  },
+  {
+    title: 'designi',
+    description: 'MCP server that stores and serves your design preferences to AI agents. Keep your design system consistent across AI-powered workflows.',
+    techStack: ['TypeScript', 'MCP'],
+    date: '2025',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/buyan-kh/designi',
+      },
+    ],
+    images: [],
+  },
+  {
+    title: 'snubot',
+    description: 'Fastest social engineering, cross platform search engine for finding public information from x.com usernames.',
+    techStack: ['TypeScript'],
+    date: '2026',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/buyan-kh/snubot',
+      },
+    ],
+    images: [],
+  },
 ];
 
 // Define interface for project prop
@@ -452,5 +517,35 @@ export const data = [
     title: 'Threat Tracker',
     src: '/threatracker.png',
     content: <ProjectContent project={{ title: 'Threat Tracker' }} />,
+  },
+  {
+    category: 'Simulate everything',
+    title: 'Simulation Theory',
+    src: '/syntopreview.png',
+    content: <ProjectContent project={{ title: 'Simulation Theory' }} />,
+  },
+  {
+    category: 'Game theory simulations',
+    title: 'learngametheory',
+    src: '/syntopreview.png',
+    content: <ProjectContent project={{ title: 'learngametheory' }} />,
+  },
+  {
+    category: 'Copy trading engine',
+    title: 'Pipify',
+    src: '/syntopreview.png',
+    content: <ProjectContent project={{ title: 'Pipify' }} />,
+  },
+  {
+    category: 'MCP server for design preferences',
+    title: 'designi',
+    src: '/syntopreview.png',
+    content: <ProjectContent project={{ title: 'designi' }} />,
+  },
+  {
+    category: 'Cross platform search engine',
+    title: 'snubot',
+    src: '/syntopreview.png',
+    content: <ProjectContent project={{ title: 'snubot' }} />,
   },
 ];
