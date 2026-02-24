@@ -157,6 +157,12 @@ const PROJECT_CONTENT = [
       'React',
     ],
     date: '2025',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/buyan-kh/graphOTN',
+      },
+    ],
     images: [
       {
         src: '/GoTN3.png',
@@ -252,7 +258,7 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/buyan-kh/cluelessx',
+        url: 'https://github.com/buyan-kh/clueless',
       },
     ],
     images: [
