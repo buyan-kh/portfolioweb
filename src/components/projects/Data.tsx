@@ -449,14 +449,8 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
   );
 };
 
-// Main data export with updated content
+// Main data export - ordered to match GitHub README
 export const data = [
-  {
-    category: 'AI SAT Prep Platform',
-    title: 'Prepst',
-    src: '/prepst.png',
-    content: <ProjectContent project={{ title: 'Prepst' }} />,
-  },
   {
     category: 'Desktop Assistant',
     title: 'Notcher',
@@ -464,59 +458,10 @@ export const data = [
     content: <ProjectContent project={{ title: 'Notcher' }} />,
   },
   {
-    category: 'Passion Project IDE',
-    title: 'Cowabunga',
-    src: '/syntopreview.png',
-    content: <ProjectContent project={{ title: 'Cowabunga' }} />,
-  },
-  {
-    category: 'Get good at Leetcode',
-    title: 'TeelCode',
-    src: '/ratepreview.png',
-    content: <ProjectContent project={{ title: 'TeelCode' }} />,
-  },
-  {
-    category:
-      'MCP server for breaking down prompts into micro prompts graph tree and traverses best path to reduce hallucination',
-    title: 'GoTN',
-    src: '/gotn_preview.jpg',
-    content: <ProjectContent project={{ title: 'GoTN' }} />,
-  },
-  {
-    category: 'MCP Server, marketplace for blackboxing LLMs',
-    title: 'TruthCircuit',
-    src: '/truthcircuit_pre.jpg',
-    content: <ProjectContent project={{ title: 'TruthCircuit' }} />,
-  },
-  {
-    category: 'Study Tool',
-    title: 'Cooking College',
-    src: '/cooking.png',
-    content: <ProjectContent project={{ title: 'Cooking College' }} />,
-  },
-  {
-    category: 'Clarity, AI timeblock',
-    title: '',
-    src: '/claritypreview.png',
-    content: <ProjectContent project={{ title: 'Clarity' }} />,
-  },
-  {
-    category: 'Projects',
-    title: 'Clueless',
-    src: '/clueless1.png',
-    content: <ProjectContent project={{ title: 'Clueless' }} />,
-  },
-  {
-    category: 'DL from scrach projects',
-    title: 'Transformers from scratch',
-    src: '/transformers.png',
-    content: <ProjectContent project={{ title: 'Transformers' }} />,
-  },
-  {
-    category: 'Hackathon project',
-    title: 'Threat Tracker',
-    src: '/threatracker.png',
-    content: <ProjectContent project={{ title: 'Threat Tracker' }} />,
+    category: 'AI SAT Prep Platform',
+    title: 'Prepst',
+    src: '/prepst.png',
+    content: <ProjectContent project={{ title: 'Prepst' }} />,
   },
   {
     category: 'Simulate everything',
@@ -543,9 +488,64 @@ export const data = [
     content: <ProjectContent project={{ title: 'designi' }} />,
   },
   {
+    category:
+      'MCP server for breaking down prompts into micro prompts graph tree and traverses best path to reduce hallucination',
+    title: 'GoTN',
+    src: '/gotn_preview.jpg',
+    content: <ProjectContent project={{ title: 'GoTN' }} />,
+  },
+  {
     category: 'Cross platform search engine',
     title: 'snubot',
     src: '/syntopreview.png',
     content: <ProjectContent project={{ title: 'snubot' }} />,
+  },
+  {
+    category: 'Get good at Leetcode',
+    title: 'TeelCode',
+    src: '/ratepreview.png',
+    content: <ProjectContent project={{ title: 'TeelCode' }} />,
+  },
+  {
+    category: 'Study Tool',
+    title: 'Cooking College',
+    src: '/cooking.png',
+    content: <ProjectContent project={{ title: 'Cooking College' }} />,
+  },
+  {
+    category: 'Clarity, AI timeblock',
+    title: '',
+    src: '/claritypreview.png',
+    content: <ProjectContent project={{ title: 'Clarity' }} />,
+  },
+  {
+    category: 'Projects',
+    title: 'Clueless',
+    src: '/clueless1.png',
+    content: <ProjectContent project={{ title: 'Clueless' }} />,
+  },
+  {
+    category: 'Passion Project IDE',
+    title: 'Cowabunga',
+    src: '/syntopreview.png',
+    content: <ProjectContent project={{ title: 'Cowabunga' }} />,
+  },
+  {
+    category: 'MCP Server, marketplace for blackboxing LLMs',
+    title: 'TruthCircuit',
+    src: '/truthcircuit_pre.jpg',
+    content: <ProjectContent project={{ title: 'TruthCircuit' }} />,
+  },
+  {
+    category: 'DL from scratch projects',
+    title: 'Transformers from scratch',
+    src: '/transformers.png',
+    content: <ProjectContent project={{ title: 'Transformers' }} />,
+  },
+  {
+    category: 'Hackathon project',
+    title: 'Threat Tracker',
+    src: '/threatracker.png',
+    content: <ProjectContent project={{ title: 'Threat Tracker' }} />,
   },
 ];
